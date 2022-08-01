@@ -8,11 +8,11 @@ function game(id){
   if(turn == "x" && element.innerHTML == ""){
     element.innerHTML = 'x';
     turn = 'o';
-    title.innerHTML = 'o'
+    title.innerHTML = 'O turn'
   } else if(turn == 'o' && element.innerHTML == ''){
     element.innerHTML = 'o';
     turn = 'x';
-    title.innerHTML = 'x'
+    title.innerHTML = 'X turn'
   }
   winner()
 }
